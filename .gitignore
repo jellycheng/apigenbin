@@ -1,0 +1,6 @@
+
+storage/log/*.log
+.DS_Store
+.env
+composer.lock
+/create-docs/
