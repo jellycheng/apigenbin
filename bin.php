@@ -22,8 +22,8 @@ if(file_exists($configFile)) {
 }
 
 echo "scan dir: " . PHP_EOL . $source . PHP_EOL;
-if(isset($configData['doc_dir']) && $configData['doc_dir']) {
-	$docDir = $configData['doc_dir'];
+if(isset($configData['doc_save_dir']) && $configData['doc_save_dir']) {
+	$docDir = $configData['doc_save_dir'];
 } else {
 	exit("document don't save path");
 }
